@@ -1,0 +1,55 @@
+---
+output: github_document
+---
+
+# genderAPI
+
+```{r echo = FALSE}
+library(badger)
+```
+
+<!-- badges: start --->
+
+<!-- [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/covidsymptom)](https://cran.r-project.org/package=covidsymptom) -->
+<!-- ![CRAN\Download\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/covidsymptom) -->
+<!-- `r badge_devel("csss-resultat/covidsymptom", "blue")` -->
+<!-- `r badge_lifecycle("experimental", "orange")` -->
+<!-- `r badge_last_commit("csss-resultat/covidsymptom")` -->
+
+<!-- badges: end -->
+
+<!-- ```{r, include = FALSE} -->
+<!-- knitr::opts_chunk$set( -->
+<!--   collapse = TRUE, -->
+<!--   comment = "#>", -->
+<!--   fig.path = "man/figures/README-", -->
+<!--   out.width = "100%" -->
+<!-- ) -->
+<!-- ``` -->
+
+
+The `genderAPI` R package is a wrapper for Gender-API.com, the biggest platform on the internet to estimate gender by name, surname and country of origin. 
+
+
+## Installation
+
+Development version of the package can be installed from Github with:
+
+``` r
+install.packages("remotes")
+remotes::install_github("hugofitipaldi/genderAPI")
+```
+## Usage
+
+First, you will need an API Key, you can create your free account [here](https://gender-api.com/en/). A free account at Gender-API.com gives you 500 credits for free every month.
+
+```{r warning=FALSE, message=FALSE, eval = FALSE}
+library(genderAPI)
+get_gender(name = "Camila", country_code = "BR", api_key = your_api_key)
+
+```
+
+```
+##     name country gender accuracy
+## 1 camila      BR female       98
+```
