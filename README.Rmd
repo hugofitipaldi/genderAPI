@@ -46,12 +46,23 @@ First, you will need an API Key, you can create your free account [here](https:/
 ```{r warning=FALSE, message=FALSE, eval = FALSE}
 library(genderAPI)
 get_gender(name = "Camila", country_code = "BR", api_key = your_api_key)
-
 ```
 
 ```
 ##     name country gender accuracy
 ## 1 camila      BR female       98
+```
+
+## Query with last name
+
+```{r warning=FALSE, message=FALSE, eval = FALSE}
+library(genderAPI)
+get_gender(name = "Daniel", country_code = "BR", api_key = your_api_key, last_name = "Fitipaldi")
+```
+
+```
+##   first_name last_name country gender accuracy
+## 1     Daniel Fitipaldi      BR   male      100
 ```
 
 **If you use this package in you research, please cite:**

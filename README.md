@@ -44,6 +44,16 @@ get_gender(name = "Camila", country_code = "BR", api_key = your_api_key)
     ##     name country gender accuracy
     ## 1 camila      BR female       98
 
+## Query with last name
+
+``` r
+library(genderAPI)
+get_gender(name = "Daniel", country_code = "BR", api_key = your_api_key, last_name = "Fitipaldi")
+```
+
+    ##   first_name last_name country gender accuracy
+    ## 1     Daniel Fitipaldi      BR   male      100
+
 **If you use this package in you research, please cite:**
 
 Hugo Fitipaldi, Paul W Franks, *Ethnic, gender and other
