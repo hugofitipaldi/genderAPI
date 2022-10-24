@@ -53,3 +53,9 @@ get_gender(name = "Camila", country_code = "BR", api_key = your_api_key)
 ##     name country gender accuracy
 ## 1 camila      BR female       98
 ```
+
+**If you use this package in you research, please cite:**
+
+Hugo Fitipaldi, Paul W Franks, *Ethnic, gender and other sociodemographic biases in genome-wide association studies for the most burdensome non-communicable diseases: 2005–2022, Human Molecular Genetics, 2022*;, ddac245, https://doi.org/10.1093/hmg/ddac245
+
+

@@ -2,33 +2,19 @@
 # genderAPI
 
 <!-- badges: start --->
-
 <!-- [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/covidsymptom)](https://cran.r-project.org/package=covidsymptom) -->
-
 <!-- ![CRAN\Download\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/covidsymptom) -->
-
 <!-- [![](https://img.shields.io/badge/devel%20version-0.1.0-blue.svg)](https://github.com/csss-resultat/covidsymptom) -->
-
-<!-- [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental) -->
-
-<!-- [![](https://img.shields.io/github/last-commit/csss-resultat/covidsymptom.svg)](https://github.com/csss-resultat/covidsymptom/commits/master) -->
-
+<!-- [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) -->
+<!-- [![](https://img.shields.io/github/last-commit/csss-resultat/covidsymptom.svg)](https://github.com/csss-resultat/covidsymptom/commits/main) -->
 <!-- badges: end -->
-
 <!-- ```{r, include = FALSE} -->
-
 <!-- knitr::opts_chunk$set( -->
-
 <!--   collapse = TRUE, -->
-
 <!--   comment = "#>", -->
-
 <!--   fig.path = "man/figures/README-", -->
-
 <!--   out.width = "100%" -->
-
 <!-- ) -->
-
 <!-- ``` -->
 
 The `genderAPI` R package is a wrapper for Gender-API.com, the biggest
@@ -57,3 +43,10 @@ get_gender(name = "Camila", country_code = "BR", api_key = your_api_key)
 
     ##     name country gender accuracy
     ## 1 camila      BR female       98
+
+**If you use this package in you research, please cite:**
+
+Hugo Fitipaldi, Paul W Franks, *Ethnic, gender and other
+sociodemographic biases in genome-wide association studies for the most
+burdensome non-communicable diseases: 2005–2022, Human Molecular
+Genetics, 2022*;, ddac245, <https://doi.org/10.1093/hmg/ddac245>
