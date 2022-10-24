@@ -1,14 +1,12 @@
 Package: genderAPI
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: GenderAPI integration for R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Hugo", "Fitipaldi", , "hugofitipaldi@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5352-2134"))
+Description: Functions to access and use  https://gender-api.com/en/ an online API to predict the gender of a person given their name, surname and country of origin.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.1
-Imports: 
-    magrittr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2

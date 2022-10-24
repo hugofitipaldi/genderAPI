@@ -4,14 +4,16 @@
 \alias{get_gender}
 \title{Function to query Gender API}
 \usage{
-get_gender(name, api_key, country_code = NA)
+get_gender(name, api_key, country_code = NA, last_name = NA)
 }
 \arguments{
-\item{name}{desired given name as  a string}
+\item{name}{desired given name as a string}
 
 \item{api_key}{your pai key as a string}
 
 \item{country_code}{optional country code (e.g. "US")}
+
+\item{last_name}{optional persons last name}
 }
 \value{
 a data table with prediction of gender
