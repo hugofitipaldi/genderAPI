@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-# genderAPI
+# genderAPI <a href='https://github.com/hugofitipaldi/genderAPI'><img src='man/figures/hex-genderAPI.png' width="15%" align="right"  /></a>
 
 ```{r echo = FALSE}
 library(badger)

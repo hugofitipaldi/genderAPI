@@ -1,10 +1,10 @@
 
-# genderAPI
+# genderAPI <a href='https://github.com/hugofitipaldi/genderAPI'><img src='man/figures/hex-genderAPI.png' width="15%" align="right"  /></a>
 
 <!-- badges: start --->
 <!-- [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/covidsymptom)](https://cran.r-project.org/package=covidsymptom) -->
 <!-- ![CRAN\Download\_Badge](https://cranlogs.r-pkg.org/badges/grand-total/covidsymptom) -->
-<!-- [![](https://img.shields.io/badge/devel%20version-0.1.0-blue.svg)](https://github.com/csss-resultat/covidsymptom) -->
+<!-- [![](https://img.shields.io/badge/devel%20version-0.0.0.9000-blue.svg)](https://github.com/csss-resultat/covidsymptom) -->
 <!-- [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) -->
 <!-- [![](https://img.shields.io/github/last-commit/csss-resultat/covidsymptom.svg)](https://github.com/csss-resultat/covidsymptom/commits/main) -->
 <!-- badges: end -->
